@@ -37,7 +37,7 @@ menu:
 params:
   homeInfoParams:
     Title: Welcome to my tech blog 👨‍💻 🧮 💡
-    Content: Hi, this is Jakub. I'am documating here my learning notes, summarizing popular scientific articles and describing my ideas about ML, MLops and Software Enginnering. I’m currently software enginner with passion to ML and MLops. 
+    Content: Hi, I'm Jakub. Here I document my learning notes, summarize popular scientific articles and describe my ideas about ML, MLops and software engineering. I am a software engineer with a passion for ML and MLops. 
 
   socialIcons: # optional
    - name: "github"
