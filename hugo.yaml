@@ -1,0 +1,48 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Jakub Nowak
+theme: hugo-PaperMod-master
+taxonomies:
+  tag: tags
+  category: categories
+menu:
+  main:
+  - name: Posts
+    pageRef: /
+    weight: 10
+  - name: Tags
+    pageRef: /tags
+    weight: 20
+  
+# params:
+#   profileMode:
+#     enabled: true
+#     title: "<Title>" # optional default will be site title
+#     subtitle: "This is subtitle"
+#     imageUrl: "<image link>" # optional
+#     imageTitle: "<title of image as alt>" # optional
+#     imageWidth: 120 # custom size
+#     imageHeight: 120 # custom size
+#     buttons:
+#     - name: Posts
+#       url: "/posts"
+#     - name: Github
+#       url: "https://github.com/"
+#   socialIcons: # optional
+#   - name: "<platform>"
+#     url: "<link>"
+#   - name: "<platform 2>"
+#     url: "<link2>"
+  
+params:
+  homeInfoParams:
+    Title: Welcome to my tech blog 👨‍💻 🧮 💡
+    Content: Hi, this is Jakub. I'am documating here my learning notes, summarizing popular scientific articles and describing my ideas about ML, MLops and Software Enginnering. I’m currently software enginner with passion to ML and MLops. 
+
+  socialIcons: # optional
+   - name: "github"
+     url: "<https://github.com/jnowakplacewise>"
+   - name: "linkedin"
+     url: "<https://www.linkedin.com/in/jakub-nowak-968134164/>"
+   - name: "cv"
+     url: /cv/jakub_nowak_cv.pdf
